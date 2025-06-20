@@ -1,40 +1,48 @@
-h1 { 
-    color: rgb(20, 62, 20)
- }
 
- .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.logo img {
-    height: 40px;
+/* Navigation bar */
+.navbar {
+  background: white;
+  padding: 20px 0; 
+  border-bottom: 1px solid #eee;
 }
 
-.main-nav ul {
-    display: flex;
-    gap: 20px;
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 25px; 
 }
 
-.header-bottom {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    padding: 10px 0;
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.category-nav ul {
-    display: flex;
-    gap: 25px;
+/* Logo styling */
+.logo-img {
+  height: 40px; 
 }
 
-.category-nav a {
-    font-weight: bold;
-    color: #555;
+/* Navigation links */
+.nav-items {
+  display: flex;
+  gap: 30px;
 }
 
-.category-nav a:hover {
-    color: #0066cc;
+.nav-link {
+  text-decoration: none;
+  color: #343333; 
+  font-size: 17px; 
+  font-weight: 550;
+  transition: color 0.2s ease; 
 }
 
+/* Hover effect for all links */
+.nav-link:hover {
+  color: #0066cc; 
+}
