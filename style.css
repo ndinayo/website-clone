@@ -3,6 +3,11 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+#main-content {
+  max-width: 1400px;
+  margin: 0 auto;    
+  padding: 0 16px;   
+}
 
 /* Navigation bar */
 .navbar {
@@ -166,3 +171,64 @@ input[type="text"] {
   background: transparent;
 }
 
+
+/* ------------------------- */
+
+
+.message-icon{
+  width: 30px;
+  fill: #0b0b0b;
+  
+  border-radius: 100%;
+  
+}
+
+.message-icon-card{
+  width: 10%;
+  margin: 0px 0px 0px 20px;
+  background-color: #aed1f3;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.action-box{
+  margin: 20px 0px 20px 0px;
+   background-color: #151a39;
+   border-radius: 16px;
+   height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.message-text{
+  width: 60%;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 0px 0px 20px;
+}
+
+.btn{
+  
+  background-color: #0066cc;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 40px;
+  margin: 0px 40px 0px 20px;
+  font-size: medium;
+  margin: 0px 0px 0px 300px;
+
+}
+
+.action-btn{
+  width: 35%;
+}
