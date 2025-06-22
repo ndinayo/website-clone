@@ -232,3 +232,39 @@ input[type="text"] {
 .action-btn{
   width: 35%;
 }
+
+.action-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-card{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 170px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #0066cc;
+}
+
+.action-card-text-box{
+  width: 50%;
+  
+}
+
+.action-card-image{
+  width: 50%;
+}
+
+.action-card-text-box{
+  color: white;
+}
+
+.action-card-text{
+  padding: 20px;
+}
